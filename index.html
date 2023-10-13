@@ -10,11 +10,20 @@
   <body>
     <header>
       <h1>Food Hub</h1>
+      <div class="navbar">
+        <div class="logo">
+        </div>
+        <div class="list">
+          <ul>
+            <li><a href="#contact">For more recipes,subscribe here!</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <div class="container">
       <ul id="recipe-list" class="recipe-list">
-         <li class="recipe-item">
+        <li class="recipe-item">
           <img
             src="https://spoonacular.com/recipeImages/12345-312x231.jpg"
             alt="Recipe 1"
@@ -51,6 +60,19 @@
           <a href="#">View Recipe</a>
         </li> 
       </ul>
+    </div>
+    <div id="contact">
+      <form class="form">
+        <p class="form-title">Subscribe Here</p>
+        <div class="input-container">
+          <input type="email" placeholder="Enter name" />
+          <span> </span>
+        </div>
+        <div class="input-container">
+          <input type="password" placeholder="Enter your Email" />
+        </div>
+        <button type="submit" class="submit">Send</button>
+      </form>
     </div>
     <script src="index.js"></script>
   </body>
